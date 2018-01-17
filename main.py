@@ -83,7 +83,7 @@ def already_present(limit, x, y):
                       Only grains already allocated need to be checks against.
     :param int x: proposed clumn value for the new grain
     :param int y: proposed row valuse for the new grain
-    """    
+    """
     for j in range(limit):
         if x == grains[j].x or y == grains[j].y:
             return True
