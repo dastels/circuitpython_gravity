@@ -40,7 +40,7 @@ WIDTH = 12    # Display width in pixels
 HEIGHT = 6    # Display height in pixels
 NUMBER_PIXELS = WIDTH * HEIGHT
 MAX_FPS = 45  # Maximum redraw rate, frames/second
-GRAIN_COLOR = (64, 64, 64)
+GRAIN_COLOR = (0, 0, 16)
 MAX_X = WIDTH * 256 - 1
 MAX_Y = HEIGHT * 256 - 1
 
