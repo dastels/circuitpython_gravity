@@ -58,7 +58,7 @@ class Grain:
 grains = [Grain() for _ in range(N_GRAINS)]
 i2c = busio.I2C(board.SCL, board.SDA)
 sensor = adafruit_lsm303.LSM303(i2c)
-wing = adafruit_dotstar.DotStar(board.D13, board.D11, WIDTH * HEIGHT, 1.0, False)
+wing = adafruit_dotstar.DotStar(board.D13, board.D11, WIDTH * HEIGHT, 0.25, False)
 
 oldidx = 0
 newidx = 0
